@@ -1,0 +1,16 @@
+@import 'nav';
+@import 'variable';
+@import 'section-1';
+@import 'middle';
+@import 'feature';
+@import 'scroll-y';
+@import 'media';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 4982px;
+    width: 100%;
+}

@@ -1,0 +1,394 @@
+.featured-items {
+  height: 1776px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.featured-items .left-features {
+  width: 50%;
+}
+.featured-items .left-features .iPad-air {
+  height: 580px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.featured-items .left-features .iPad-air .container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.featured-items .left-features .iPad-air .container .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+.featured-items .left-features .iPad-air .container .top p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.featured-items .left-features .iPad-air .container .top .buttons {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.featured-items .left-features .iPad-air .container .top .buttons .learn-more {
+  width: 130.72px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.featured-items .left-features .iPad-air .container .top .buttons .buy {
+  width: 73.2px;
+  height: 44px;
+  border-radius: 20px;
+  border: 1px solid #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0071E3;
+}
+.featured-items .left-features .iPad-air .container .bottom {
+  text-align: center;
+}
+.featured-items .left-features .iPad-air .container .bottom p {
+  background-image: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+  color: transparent;
+  background-clip: text;
+}
+.featured-items .left-features .iPad-air .container img {
+  height: 30px;
+  width: 140px;
+}
+.featured-items .left-features .iPad-air img {
+  width: 100%;
+  height: 580px;
+}
+.featured-items .left-features .watch {
+  height: 580px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.featured-items .left-features .watch .container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.featured-items .left-features .watch .container .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+.featured-items .left-features .watch .container .top p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.featured-items .left-features .watch .container .top .buttons {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.featured-items .left-features .watch .container .top .buttons .learn-more {
+  width: 130.72px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.featured-items .left-features .watch .container .top .buttons .buy {
+  width: 73.2px;
+  height: 44px;
+  border-radius: 20px;
+  border: 1px solid #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0071E3;
+}
+.featured-items .left-features .watch .container .top img {
+  height: 58px;
+  width: 140px;
+}
+.featured-items .left-features .watch .container .bottom {
+  text-align: center;
+}
+.featured-items .left-features .watch .container .bottom p {
+  color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+}
+.featured-items .left-features .watch img {
+  width: 100%;
+  height: 580px;
+}
+.featured-items .left-features .Trade-in {
+  height: 580px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.featured-items .left-features .Trade-in .container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.featured-items .left-features .Trade-in .container .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+.featured-items .left-features .Trade-in .container .top p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.featured-items .left-features .Trade-in .container .top .buttons {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.featured-items .left-features .Trade-in .container .top .buttons .learn-more {
+  width: 130.72px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.featured-items .left-features .Trade-in .container .top .buttons .buy {
+  width: 73.2px;
+  height: 44px;
+  border-radius: 20px;
+  border: 1px solid #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0071E3;
+}
+.featured-items .left-features .Trade-in .container .bottom {
+  text-align: center;
+}
+.featured-items .left-features .Trade-in .container .bottom p {
+  color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+}
+.featured-items .left-features .Trade-in .container img {
+  height: 30px;
+  width: 140px;
+}
+.featured-items .left-features .Trade-in img {
+  width: 100%;
+  height: 580px;
+}
+.featured-items .right-features {
+  width: 50%;
+}
+.featured-items .right-features .AirPods-Pro-2 {
+  height: 580px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.featured-items .right-features .AirPods-Pro-2 .container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.featured-items .right-features .AirPods-Pro-2 .container .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+.featured-items .right-features .AirPods-Pro-2 .container .bottom h1 {
+  color: #fff;
+}
+.featured-items .right-features .AirPods-Pro-2 .container .bottom p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.featured-items .right-features .AirPods-Pro-2 .container .bottom .buttons {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.featured-items .right-features .AirPods-Pro-2 .container .bottom .buttons .learn-more {
+  width: 130.72px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.featured-items .right-features .AirPods-Pro-2 .container .bottom .buttons .buy {
+  width: 73.2px;
+  height: 44px;
+  border-radius: 20px;
+  border: 1px solid #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0071E3;
+}
+.featured-items .right-features .AirPods-Pro-2 .container img {
+  height: 30px;
+  width: 140px;
+}
+.featured-items .right-features .AirPods-Pro-2 img {
+  width: 100%;
+  height: 580px;
+}
+.featured-items .right-features .MacBook-Air {
+  height: 580px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.featured-items .right-features .MacBook-Air .container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.featured-items .right-features .MacBook-Air .container .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+.featured-items .right-features .MacBook-Air .container .top p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.featured-items .right-features .MacBook-Air .container .top .buttons {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.featured-items .right-features .MacBook-Air .container .top .buttons .learn-more {
+  width: 130.72px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.featured-items .right-features .MacBook-Air .container .top .buttons .buy {
+  width: 73.2px;
+  height: 44px;
+  border-radius: 20px;
+  border: 1px solid #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0071E3;
+}
+.featured-items .right-features .MacBook-Air .container .bottom {
+  text-align: center;
+}
+.featured-items .right-features .MacBook-Air .container .bottom p {
+  color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+}
+.featured-items .right-features .MacBook-Air .container img {
+  height: 30px;
+  width: 140px;
+}
+.featured-items .right-features .MacBook-Air img {
+  width: 100%;
+  height: 580px;
+}
+.featured-items .right-features .Card {
+  height: 580px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.featured-items .right-features .Card .container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.featured-items .right-features .Card .container .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+.featured-items .right-features .Card .container .top p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.featured-items .right-features .Card .container .top .buttons {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.featured-items .right-features .Card .container .top .buttons .learn-more {
+  width: 130.72px;
+  height: 44px;
+  border-radius: 20px;
+  background-color: #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.featured-items .right-features .Card .container .top .buttons .buy {
+  width: 73.2px;
+  height: 44px;
+  border-radius: 20px;
+  border: 1px solid #0071E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0071E3;
+}
+.featured-items .right-features .Card .container .bottom {
+  text-align: center;
+}
+.featured-items .right-features .Card .container .bottom p {
+  color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+}
+.featured-items .right-features .Card .container img {
+  height: 30px;
+  width: 140px;
+}
+.featured-items .right-features .Card img {
+  width: 100%;
+  height: 580px;
+}
+
+/*# sourceMappingURL=feature.css.map */

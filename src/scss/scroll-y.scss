@@ -1,0 +1,11 @@
+.Scroll-Y{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    overflow-x: scroll;
+    .gallery{
+        min-width: 1250px;
+        height: 667px;
+        background-color: black;
+    }
+}

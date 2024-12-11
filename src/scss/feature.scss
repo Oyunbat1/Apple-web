@@ -1,0 +1,411 @@
+.featured-items{
+    height: 1776px;
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    .left-features{
+       
+        width: 50%;
+        .iPad-air{
+            height: 580px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            .container{
+                position: absolute;
+                display: flex;
+                flex-direction: column;  
+                height: 100%;
+                justify-content: space-around; 
+                .top{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom:250px;
+                    p{
+                        margin-top: 15px;
+                        letter-spacing: 1px;
+                    }
+                    .buttons{
+                        padding-top: 20px;
+                        display: flex;
+                        gap: 20px;
+                        .learn-more{
+                            width: 130.72px;
+                            height: 44px;
+                            border-radius: 20px;
+                            background-color: #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                        }
+                        .buy{
+                            width: 73.2px;
+                            height: 44px;
+                            border-radius: 20px;
+                            border: 1px solid #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #0071E3;
+                        }
+
+                    }
+                }  
+                .bottom{
+                    text-align: center;
+                    p{
+                    background-image:  linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+                    color: transparent;
+                    background-clip: text;
+                    }
+                }
+                img{
+                    height: 30px;
+                    width: 140px;
+                }
+            }
+            img{
+                width: 100%;
+                height: 580px;
+            }
+        }
+         .watch{
+        height: 580px;
+    
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        .container{
+            position: absolute;
+            display: flex;
+            flex-direction: column;  
+            height: 100%;
+            justify-content: space-around; 
+            .top{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom:250px;
+                p{
+                    margin-top: 15px;
+                    letter-spacing: 1px;
+                }
+                .buttons{
+                    padding-top: 20px;
+                    display: flex;
+                    gap: 20px;
+                    .learn-more{
+                        width: 130.72px;
+                        height: 44px;
+                        border-radius: 20px;
+                        background-color: #0071E3;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+                    .buy{
+                        width: 73.2px;
+                        height: 44px;
+                        border-radius: 20px;
+                        border: 1px solid #0071E3;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #0071E3;
+                    }
+
+                }
+                img{
+                    height: 58px;
+                    width: 140px;
+                }
+            }  
+            .bottom{
+                text-align: center;
+                p{
+                color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+                }
+            }
+       
+        }
+        img{
+            width: 100%;
+            height: 580px;
+        }
+        }
+        .Trade-in{
+            height: 580px;
+          
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            .container{
+                position: absolute;
+                display: flex;
+                flex-direction: column;  
+                height: 100%;
+                justify-content: space-around; 
+                .top{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom:250px;
+                    p{
+                        margin-top: 15px;
+                        letter-spacing: 1px;
+                        text-align: center;
+                    }
+                    .buttons{
+                        padding-top: 20px;
+                        display: flex;
+                        gap: 20px;
+                        .learn-more{
+                            width: 130.72px;
+                            height: 44px;
+                            border-radius: 20px;
+                            background-color: #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                        }
+                        .buy{
+                            width: 73.2px;
+                            height: 44px;
+                            border-radius: 20px;
+                            border: 1px solid #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #0071E3;
+                        }
+    
+                    }
+                }  
+                .bottom{
+                    text-align: center;
+                    p{
+                    color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+                    }
+                }
+                img{
+                    height: 30px;
+                    width: 140px;
+                }
+            }
+            img{
+                width: 100%;
+                height: 580px;
+            }
+        }
+    }
+    .right-features{
+      
+        width: 50%;
+        .AirPods-Pro-2{
+            height: 580px;
+           
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            .container{
+                position: absolute;
+                display: flex;
+                flex-direction: column;  
+                height: 100%;
+                justify-content: space-around;
+                .top{
+                  
+                }  
+                .bottom{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top:200px;
+                    h1{
+                        color: #fff;
+                    }
+                    p{
+                        margin-top: 15px;
+                        letter-spacing: 1px;
+                        color: #fff;
+                    }
+                    .buttons{
+                        padding-top: 20px;
+                        display: flex;
+                        gap: 20px;
+                        
+                        .learn-more{
+                            width: 130.72px;
+                            height: 44px;
+                            border-radius: 20px;
+                            background-color: #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                        }
+                        .buy{
+                            width: 73.2px;
+                            height: 44px;
+                            border-radius: 20px;
+                            border: 1px solid #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #0071E3;
+                        }
+    
+                    }
+                }
+                img{
+                    height: 30px;
+                    width: 140px;
+                }
+            }
+            img{
+                width: 100%;
+                height: 580px;
+            }
+        }
+         .MacBook-Air{
+            height: 580px;
+           
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            .container{
+                position: absolute;
+                display: flex;
+                flex-direction: column;  
+                height: 100%;
+                justify-content: space-around; 
+                .top{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom:250px;
+                    p{
+                        margin-top: 15px;
+                        letter-spacing: 1px;
+                    }
+                    .buttons{
+                        padding-top: 20px;
+                        display: flex;
+                        gap: 20px;
+                        .learn-more{
+                            width: 130.72px;
+                            height: 44px;
+                            border-radius: 20px;
+                            background-color: #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                        }
+                        .buy{
+                            width: 73.2px;
+                            height: 44px;
+                            border-radius: 20px;
+                            border: 1px solid #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #0071E3;
+                        }
+    
+                    }
+                }  
+                .bottom{
+                    text-align: center;
+                    p{
+                    color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+                    }
+                }
+                img{
+                    height: 30px;
+                    width: 140px;
+                }
+            }
+            img{
+                width: 100%;
+                height: 580px;
+            }
+        }
+        .Card{
+            height: 580px;
+        
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            .container{
+                position: absolute;
+                display: flex;
+                flex-direction: column;  
+                height: 100%;
+                justify-content: space-around; 
+                .top{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom:250px;
+                    p{
+                        margin-top: 15px;
+                        letter-spacing: 1px;
+                    }
+                    .buttons{
+                        padding-top: 20px;
+                        display: flex;
+                        gap: 20px;
+                        .learn-more{
+                            width: 130.72px;
+                            height: 44px;
+                            border-radius: 20px;
+                            background-color: #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: white;
+                        }
+                        .buy{
+                            width: 73.2px;
+                            height: 44px;
+                            border-radius: 20px;
+                            border: 1px solid #0071E3;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #0071E3;
+                        }
+    
+                    }
+                }  
+                .bottom{
+                    text-align: center;
+                    p{
+                    color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+                    }
+                }
+                img{
+                    height: 30px;
+                    width: 140px;
+                }
+            }
+            img{
+                width: 100%;
+                height: 580px;
+            }
+        }
+    }
+}

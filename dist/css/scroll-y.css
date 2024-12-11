@@ -1,0 +1,13 @@
+.Scroll-Y {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  overflow-x: scroll;
+}
+.Scroll-Y .gallery {
+  min-width: 1250px;
+  height: 667px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=scroll-y.css.map */

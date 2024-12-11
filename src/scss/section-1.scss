@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.main-products{
+    width: 100%;
+    .container-1{
+        position: relative;
+        height: 692px;
+        color: #fff;
+      
+            .iphone-16-pro{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-top: 55px;
+                h1{
+                    font-size: 51.41px;
+                    line-height: 60px;
+                    font-weight: 600;
+                    font-family: "Inter", sans-serif;
+                }
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 400;
+                    line-height: 32px;
+                    font-size: 24.28px;
+                }
+                .buttons{
+                    display: flex;
+                    gap: 20px;
+                    padding: 20px;
+                    .learn-more{
+                        width: 130.72px;
+                        height: 44px;
+                        border-radius: 20px;
+                        background-color: #0071E3;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .buy{
+                        width: 73.2px;
+                        height: 44px;
+                        border-radius: 20px;
+                        border: 1px solid #0071E3;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #0071E3;
+                    }
+                }
+            }
+        img{
+            width: 100%;
+            height: 692px;
+            object-fit: cover;
+      
+        }
+    }
+    .container-2{
+        position: relative;
+        height: 692px;
+        color: #fff;
+        margin-top: 10px;
+            .iphone-16-pro{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-top: 55px;
+                h1{
+                    font-size: 51.41px;
+                    line-height: 60px;
+                    font-weight: 600;
+                    font-family: "Inter", sans-serif;
+                }
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 400;
+                    line-height: 32px;
+                    font-size: 24.28px;
+                }
+                .buttons{
+                    display: flex;
+                    gap: 20px;
+                    padding: 20px;
+                    .learn-more{
+                        width: 130.72px;
+                        height: 44px;
+                        border-radius: 20px;
+                        background-color: white;
+                        color: #333;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .buy{
+                        width: 73.2px;
+                        height: 44px;
+                        border-radius: 20px;
+                        border: 1px solid #ffffff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #ffffff;
+                    }
+                }
+            }
+        img{
+            width: 100%;
+            height: 692px;
+            object-fit: cover;
+      
+        }
+    }
+    .container-3{
+        position: relative;
+        height: 692px;
+        color: #000000;
+        margin-top: 10px;
+            .iphone-16-pro{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-top: 455px;
+                h1{
+                    font-size: 51.41px;
+                    line-height: 60px;
+                    font-weight: 600;
+                    font-family: "Inter", sans-serif;
+                }
+                p{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 400;
+                    line-height: 32px;
+                    font-size: 24.28px;
+                    color: #1D1D1F;
+                }
+                .buttons{
+                    display: flex;
+                    gap: 20px;
+                    padding: 20px;
+                    .learn-more{
+                        width: 130.72px;
+                        height: 44px;
+                        border-radius: 20px;
+                        background-color: #0071E3;
+                        color: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        img{
+            width: 100%;
+            height: 692px;
+            object-fit: cover;
+      
+        }
+    }
+}
