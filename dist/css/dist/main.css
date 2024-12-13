@@ -9,26 +9,31 @@ header {
   right: 0;
   z-index: 10;
 }
+
 header .navbar {
   height: 44px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 header .navbar nav ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 header .navbar nav ul li {
   list-style: none;
   padding: 0 15px;
   display: block;
 }
+
 header .navbar nav ul li a {
   text-decoration: none;
   color: var(--text-color);
 }
+
 header .navbar nav ul li:last-of-type {
   display: none;
 }
@@ -40,11 +45,13 @@ header .navbar nav ul li:last-of-type {
 .main-products {
   width: 100%;
 }
+
 .main-products .container-1 {
   position: relative;
   height: 692px;
   color: #fff;
 }
+
 .main-products .container-1 .iphone-16-pro {
   position: absolute;
   display: flex;
@@ -54,23 +61,27 @@ header .navbar nav ul li:last-of-type {
   width: 100%;
   margin-top: 55px;
 }
+
 .main-products .container-1 .iphone-16-pro h1 {
   font-size: 51.41px;
   line-height: 60px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
+
 .main-products .container-1 .iphone-16-pro p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 32px;
   font-size: 24.28px;
 }
+
 .main-products .container-1 .iphone-16-pro .buttons {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
+
 .main-products .container-1 .iphone-16-pro .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -80,6 +91,7 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   align-items: center;
 }
+
 .main-products .container-1 .iphone-16-pro .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -90,17 +102,20 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: #0071E3;
 }
+
 .main-products .container-1 img {
   width: 100%;
   height: 692px;
   object-fit: cover;
 }
+
 .main-products .container-2 {
   position: relative;
   height: 692px;
   color: #fff;
   margin-top: 10px;
 }
+
 .main-products .container-2 .iphone-16-pro {
   position: absolute;
   display: flex;
@@ -110,23 +125,27 @@ header .navbar nav ul li:last-of-type {
   width: 100%;
   margin-top: 55px;
 }
+
 .main-products .container-2 .iphone-16-pro h1 {
   font-size: 51.41px;
   line-height: 60px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
+
 .main-products .container-2 .iphone-16-pro p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 32px;
   font-size: 24.28px;
 }
+
 .main-products .container-2 .iphone-16-pro .buttons {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
+
 .main-products .container-2 .iphone-16-pro .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -137,6 +156,7 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   align-items: center;
 }
+
 .main-products .container-2 .iphone-16-pro .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -147,17 +167,20 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: #ffffff;
 }
+
 .main-products .container-2 img {
   width: 100%;
   height: 692px;
   object-fit: cover;
 }
+
 .main-products .container-3 {
   position: relative;
   height: 692px;
   color: #000000;
   margin-top: 10px;
 }
+
 .main-products .container-3 .iphone-16-pro {
   position: absolute;
   display: flex;
@@ -167,12 +190,14 @@ header .navbar nav ul li:last-of-type {
   width: 100%;
   margin-top: 455px;
 }
+
 .main-products .container-3 .iphone-16-pro h1 {
   font-size: 51.41px;
   line-height: 60px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
+
 .main-products .container-3 .iphone-16-pro p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -180,11 +205,13 @@ header .navbar nav ul li:last-of-type {
   font-size: 24.28px;
   color: #1D1D1F;
 }
+
 .main-products .container-3 .iphone-16-pro .buttons {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
+
 .main-products .container-3 .iphone-16-pro .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -195,89 +222,11 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   align-items: center;
 }
+
 .main-products .container-3 img {
   width: 100%;
   height: 692px;
   object-fit: cover;
-}
-
-.page-2-scroll-x {
-  display: flex;
-  justify-content: center;
-}
-.page-2-scroll-x .container {
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  justify-items: center;
-  gap: 10px;
-  width: 1920px;
-}
-.page-2-scroll-x .container .item {
-  width: 136px;
-  height: 148px;
-}
-.page-2-scroll-x .container .item h1 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
-}
-.page-2-scroll-x .container .item img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.page-2-scroll-x-1 {
-  width: 100%;
-  height: 620px;
-  margin-top: 140px;
-  background-color: red;
-}
-.page-2-scroll-x-1 .left {
-  padding: 20px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 120px;
-  height: 100px;
-  background-color: greenyellow;
-}
-.page-2-scroll-x-1 .left #logo {
-  background-image: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
-  color: transparent;
-  background-clip: text;
-  font-weight: 700;
-  font-size: 43.88px;
-  line-height: 52.01px;
-  padding-right: 10px;
-}
-.page-2-scroll-x-1 .left #simple-text {
-  font-weight: 700;
-  font-size: 43.88px;
-  line-height: 52.01px;
-  color: rgb(110, 110, 115);
-}
-.page-2-scroll-x-1 .features {
-  height: 526px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
-  padding-left: 120px;
-  overflow-x: scroll;
-}
-.page-2-scroll-x-1 .features .items {
-  width: 480px;
-  height: 500px;
-  border-radius: 18px;
-  background-color: #0071E3;
-}
-.page-2-scroll-x-1 .features .items img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 18px;
 }
 
 .middle .container {
@@ -289,84 +238,30 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   font-family: "Inter", sans-serif;
   gap: 10px;
-  background-color: #fff;
 }
+
 .middle .container p:first-of-type {
   color: #1D1D1F;
   font-weight: 400;
   line-height: 20.59px;
   font-size: 13.89px;
 }
+
 .middle .container p:last-of-type {
   font-size: 7.11px;
   font-weight: 400;
   text-decoration: underline solid;
 }
+
 .middle .container a {
   font-weight: 400px;
   font-size: 13.78px;
   line-height: 20.59px;
 }
+
 .middle .container img {
   width: 3.9px;
   height: 6.83px;
-}
-
-.gradient {
-  display: flex;
-  width: 100%;
-  position: relative;
-  z-index: -1;
-  margin-top: 25px;
-  margin-bottom: 50px;
-}
-
-.gradient :nth-child(1) {
-  width: 60vw;
-  height: 20px;
-  top: -30px;
-  left: 0;
-  background: #4186fd;
-  border-radius: 50%;
-  filter: blur(20px);
-  position: absolute;
-}
-
-.gradient :nth-child(2) {
-  width: 30vw;
-  height: 50px;
-  background: #e9a5ff;
-  top: -60px;
-  left: -25%;
-  right: 0;
-  margin: 0 auto;
-  filter: blur(20px);
-  border-radius: 50%;
-  position: absolute;
-}
-
-.gradient :nth-child(3) {
-  width: 40vw;
-  height: 150px;
-  background: #ff3f98;
-  top: -160px;
-  left: 0;
-  right: -20vw;
-  margin: 0 auto;
-  filter: blur(20px);
-  border-radius: 50%;
-  position: absolute;
-}
-
-.gradient :nth-child(4) {
-  width: 40vw;
-  height: 50px;
-  background: #fd8c1f;
-  top: -55px;
-  border-radius: 50%;
-  right: 0vw;
-  filter: blur(20px);
-  position: absolute;
 }
 
 .featured-items {
@@ -376,9 +271,11 @@ header .navbar nav ul li:last-of-type {
   gap: 10px;
   padding: 10px;
 }
+
 .featured-items .left-features {
   width: 50%;
 }
+
 .featured-items .left-features .iPad-air {
   height: 580px;
   position: relative;
@@ -386,6 +283,7 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .featured-items .left-features .iPad-air .container {
   position: absolute;
   display: flex;
@@ -393,21 +291,25 @@ header .navbar nav ul li:last-of-type {
   height: 100%;
   justify-content: space-around;
 }
+
 .featured-items .left-features .iPad-air .container .top {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 250px;
 }
+
 .featured-items .left-features .iPad-air .container .top p {
   margin-top: 15px;
   letter-spacing: 1px;
 }
+
 .featured-items .left-features .iPad-air .container .top .buttons {
   padding-top: 20px;
   display: flex;
   gap: 20px;
 }
+
 .featured-items .left-features .iPad-air .container .top .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -418,6 +320,7 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: white;
 }
+
 .featured-items .left-features .iPad-air .container .top .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -428,22 +331,27 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: #0071E3;
 }
+
 .featured-items .left-features .iPad-air .container .bottom {
   text-align: center;
 }
+
 .featured-items .left-features .iPad-air .container .bottom p {
   background-image: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
   color: transparent;
   background-clip: text;
 }
+
 .featured-items .left-features .iPad-air .container img {
   height: 30px;
   width: 140px;
 }
+
 .featured-items .left-features .iPad-air img {
   width: 100%;
   height: 580px;
 }
+
 .featured-items .left-features .watch {
   height: 580px;
   position: relative;
@@ -451,6 +359,7 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .featured-items .left-features .watch .container {
   position: absolute;
   display: flex;
@@ -458,21 +367,25 @@ header .navbar nav ul li:last-of-type {
   height: 100%;
   justify-content: space-around;
 }
+
 .featured-items .left-features .watch .container .top {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 250px;
 }
+
 .featured-items .left-features .watch .container .top p {
   margin-top: 15px;
   letter-spacing: 1px;
 }
+
 .featured-items .left-features .watch .container .top .buttons {
   padding-top: 20px;
   display: flex;
   gap: 20px;
 }
+
 .featured-items .left-features .watch .container .top .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -483,6 +396,7 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: white;
 }
+
 .featured-items .left-features .watch .container .top .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -493,20 +407,25 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: #0071E3;
 }
+
 .featured-items .left-features .watch .container .top img {
   height: 58px;
   width: 140px;
 }
+
 .featured-items .left-features .watch .container .bottom {
   text-align: center;
 }
+
 .featured-items .left-features .watch .container .bottom p {
   color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
 }
+
 .featured-items .left-features .watch img {
   width: 100%;
   height: 580px;
 }
+
 .featured-items .left-features .Trade-in {
   height: 580px;
   position: relative;
@@ -514,6 +433,7 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .featured-items .left-features .Trade-in .container {
   position: absolute;
   display: flex;
@@ -521,22 +441,26 @@ header .navbar nav ul li:last-of-type {
   height: 100%;
   justify-content: space-around;
 }
+
 .featured-items .left-features .Trade-in .container .top {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 250px;
 }
+
 .featured-items .left-features .Trade-in .container .top p {
   margin-top: 15px;
   letter-spacing: 1px;
   text-align: center;
 }
+
 .featured-items .left-features .Trade-in .container .top .buttons {
   padding-top: 20px;
   display: flex;
   gap: 20px;
 }
+
 .featured-items .left-features .Trade-in .container .top .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -547,6 +471,7 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: white;
 }
+
 .featured-items .left-features .Trade-in .container .top .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -557,23 +482,29 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: #0071E3;
 }
+
 .featured-items .left-features .Trade-in .container .bottom {
   text-align: center;
 }
+
 .featured-items .left-features .Trade-in .container .bottom p {
   color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
 }
+
 .featured-items .left-features .Trade-in .container img {
   height: 30px;
   width: 140px;
 }
+
 .featured-items .left-features .Trade-in img {
   width: 100%;
   height: 580px;
 }
+
 .featured-items .right-features {
   width: 50%;
 }
+
 .featured-items .right-features .AirPods-Pro-2 {
   height: 580px;
   position: relative;
@@ -581,6 +512,7 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .featured-items .right-features .AirPods-Pro-2 .container {
   position: absolute;
   display: flex;
@@ -588,25 +520,30 @@ header .navbar nav ul li:last-of-type {
   height: 100%;
   justify-content: space-around;
 }
+
 .featured-items .right-features .AirPods-Pro-2 .container .bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 200px;
 }
+
 .featured-items .right-features .AirPods-Pro-2 .container .bottom h1 {
   color: #fff;
 }
+
 .featured-items .right-features .AirPods-Pro-2 .container .bottom p {
   margin-top: 15px;
   letter-spacing: 1px;
   color: #fff;
 }
+
 .featured-items .right-features .AirPods-Pro-2 .container .bottom .buttons {
   padding-top: 20px;
   display: flex;
   gap: 20px;
 }
+
 .featured-items .right-features .AirPods-Pro-2 .container .bottom .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -617,6 +554,7 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: white;
 }
+
 .featured-items .right-features .AirPods-Pro-2 .container .bottom .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -627,14 +565,17 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: #0071E3;
 }
+
 .featured-items .right-features .AirPods-Pro-2 .container img {
   height: 30px;
   width: 140px;
 }
+
 .featured-items .right-features .AirPods-Pro-2 img {
   width: 100%;
   height: 580px;
 }
+
 .featured-items .right-features .MacBook-Air {
   height: 580px;
   position: relative;
@@ -642,6 +583,7 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .featured-items .right-features .MacBook-Air .container {
   position: absolute;
   display: flex;
@@ -649,21 +591,25 @@ header .navbar nav ul li:last-of-type {
   height: 100%;
   justify-content: space-around;
 }
+
 .featured-items .right-features .MacBook-Air .container .top {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 250px;
 }
+
 .featured-items .right-features .MacBook-Air .container .top p {
   margin-top: 15px;
   letter-spacing: 1px;
 }
+
 .featured-items .right-features .MacBook-Air .container .top .buttons {
   padding-top: 20px;
   display: flex;
   gap: 20px;
 }
+
 .featured-items .right-features .MacBook-Air .container .top .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -674,6 +620,7 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: white;
 }
+
 .featured-items .right-features .MacBook-Air .container .top .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -684,20 +631,25 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: #0071E3;
 }
+
 .featured-items .right-features .MacBook-Air .container .bottom {
   text-align: center;
 }
+
 .featured-items .right-features .MacBook-Air .container .bottom p {
   color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
 }
+
 .featured-items .right-features .MacBook-Air .container img {
   height: 30px;
   width: 140px;
 }
+
 .featured-items .right-features .MacBook-Air img {
   width: 100%;
   height: 580px;
 }
+
 .featured-items .right-features .Card {
   height: 580px;
   position: relative;
@@ -705,6 +657,7 @@ header .navbar nav ul li:last-of-type {
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .featured-items .right-features .Card .container {
   position: absolute;
   display: flex;
@@ -712,21 +665,25 @@ header .navbar nav ul li:last-of-type {
   height: 100%;
   justify-content: space-around;
 }
+
 .featured-items .right-features .Card .container .top {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 250px;
 }
+
 .featured-items .right-features .Card .container .top p {
   margin-top: 15px;
   letter-spacing: 1px;
 }
+
 .featured-items .right-features .Card .container .top .buttons {
   padding-top: 20px;
   display: flex;
   gap: 20px;
 }
+
 .featured-items .right-features .Card .container .top .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -737,6 +694,7 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: white;
 }
+
 .featured-items .right-features .Card .container .top .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -747,16 +705,20 @@ header .navbar nav ul li:last-of-type {
   align-items: center;
   color: #0071E3;
 }
+
 .featured-items .right-features .Card .container .bottom {
   text-align: center;
 }
+
 .featured-items .right-features .Card .container .bottom p {
   color: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
 }
+
 .featured-items .right-features .Card .container img {
   height: 30px;
   width: 140px;
 }
+
 .featured-items .right-features .Card img {
   width: 100%;
   height: 580px;
@@ -768,14 +730,11 @@ header .navbar nav ul li:last-of-type {
   width: 100%;
   overflow-x: scroll;
 }
+
 .Scroll-Y .gallery {
   min-width: 1250px;
   height: 667px;
   background-color: black;
-}
-.Scroll-Y .gallery img {
-  height: 667px;
-  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -995,123 +954,6 @@ header .navbar nav ul li:last-of-type {
     display: none;
   }
 }
-.tab-list {
-  height: 50px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.tab-list .container {
-  height: 8px;
-  width: 240px;
-  display: flex;
-  gap: 15px;
-}
-.tab-list .container div {
-  width: 8px;
-  height: 8px;
-  background-color: rgba(0, 0, 0, 0.42);
-  border-radius: 4px;
-}
-.tab-list .container div:first-of-type {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.footer-scroll {
-  height: 292px;
-}
-.footer-scroll .container {
-  height: 236px;
-  display: flex;
-  gap: 20px;
-  width: 100%;
-  overflow-x: scroll;
-}
-.footer-scroll .container div {
-  width: 417px;
-  height: 236px;
-}
-.footer-scroll .btn {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-.footer-scroll .btn .btn-1 {
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
-  background-color: rgb(210, 210, 215);
-  margin-right: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer-scroll .btn .btn-1 div {
-  width: 12px;
-  height: 12px;
-  background-color: black;
-  border-radius: 50%;
-}
-
-.special-text {
-  height: 300px;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 20px;
-}
-.special-text .left {
-  padding: 20px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 120px;
-}
-.special-text .left #logo {
-  background-image: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
-  color: transparent;
-  background-clip: text;
-  font-weight: 700;
-  font-size: 43.88px;
-  line-height: 52.01px;
-  padding-right: 10px;
-}
-.special-text .left #simple-text {
-  font-weight: 700;
-  font-size: 43.88px;
-  line-height: 52.01px;
-  color: rgb(110, 110, 115);
-}
-.special-text .right {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-}
-.special-text .right .left-pic img {
-  border-radius: 50%;
-  margin-bottom: 55px;
-  margin-left: 120px;
-  width: 35px;
-  height: 35px;
-}
-.special-text .right .right-text .top-text {
-  padding-bottom: 20px;
-}
-.special-text .right .right-text .top-text h2 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 20px;
-}
-.special-text .right .right-text .bottom-text h2 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 20px;
-}
-
 * {
   padding: 0;
   margin: 0;

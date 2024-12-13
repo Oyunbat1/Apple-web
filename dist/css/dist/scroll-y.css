@@ -4,14 +4,11 @@
   width: 100%;
   overflow-x: scroll;
 }
+
 .Scroll-Y .gallery {
   min-width: 1250px;
   height: 667px;
   background-color: black;
-}
-.Scroll-Y .gallery img {
-  height: 667px;
-  width: 100%;
 }
 
 /*# sourceMappingURL=scroll-y.css.map */

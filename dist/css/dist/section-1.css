@@ -2,11 +2,13 @@
 .main-products {
   width: 100%;
 }
+
 .main-products .container-1 {
   position: relative;
   height: 692px;
   color: #fff;
 }
+
 .main-products .container-1 .iphone-16-pro {
   position: absolute;
   display: flex;
@@ -16,23 +18,27 @@
   width: 100%;
   margin-top: 55px;
 }
+
 .main-products .container-1 .iphone-16-pro h1 {
   font-size: 51.41px;
   line-height: 60px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
+
 .main-products .container-1 .iphone-16-pro p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 32px;
   font-size: 24.28px;
 }
+
 .main-products .container-1 .iphone-16-pro .buttons {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
+
 .main-products .container-1 .iphone-16-pro .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -42,6 +48,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .main-products .container-1 .iphone-16-pro .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -52,17 +59,20 @@
   align-items: center;
   color: #0071E3;
 }
+
 .main-products .container-1 img {
   width: 100%;
   height: 692px;
   object-fit: cover;
 }
+
 .main-products .container-2 {
   position: relative;
   height: 692px;
   color: #fff;
   margin-top: 10px;
 }
+
 .main-products .container-2 .iphone-16-pro {
   position: absolute;
   display: flex;
@@ -72,23 +82,27 @@
   width: 100%;
   margin-top: 55px;
 }
+
 .main-products .container-2 .iphone-16-pro h1 {
   font-size: 51.41px;
   line-height: 60px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
+
 .main-products .container-2 .iphone-16-pro p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 32px;
   font-size: 24.28px;
 }
+
 .main-products .container-2 .iphone-16-pro .buttons {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
+
 .main-products .container-2 .iphone-16-pro .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -99,6 +113,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .main-products .container-2 .iphone-16-pro .buttons .buy {
   width: 73.2px;
   height: 44px;
@@ -109,17 +124,20 @@
   align-items: center;
   color: #ffffff;
 }
+
 .main-products .container-2 img {
   width: 100%;
   height: 692px;
   object-fit: cover;
 }
+
 .main-products .container-3 {
   position: relative;
   height: 692px;
   color: #000000;
   margin-top: 10px;
 }
+
 .main-products .container-3 .iphone-16-pro {
   position: absolute;
   display: flex;
@@ -129,12 +147,14 @@
   width: 100%;
   margin-top: 455px;
 }
+
 .main-products .container-3 .iphone-16-pro h1 {
   font-size: 51.41px;
   line-height: 60px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
 }
+
 .main-products .container-3 .iphone-16-pro p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -142,11 +162,13 @@
   font-size: 24.28px;
   color: #1D1D1F;
 }
+
 .main-products .container-3 .iphone-16-pro .buttons {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
+
 .main-products .container-3 .iphone-16-pro .buttons .learn-more {
   width: 130.72px;
   height: 44px;
@@ -157,89 +179,11 @@
   justify-content: center;
   align-items: center;
 }
+
 .main-products .container-3 img {
   width: 100%;
   height: 692px;
   object-fit: cover;
-}
-
-.page-2-scroll-x {
-  display: flex;
-  justify-content: center;
-}
-.page-2-scroll-x .container {
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  justify-items: center;
-  gap: 10px;
-  width: 1920px;
-}
-.page-2-scroll-x .container .item {
-  width: 136px;
-  height: 148px;
-}
-.page-2-scroll-x .container .item h1 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
-}
-.page-2-scroll-x .container .item img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.page-2-scroll-x-1 {
-  width: 100%;
-  height: 620px;
-  margin-top: 140px;
-  background-color: red;
-}
-.page-2-scroll-x-1 .left {
-  padding: 20px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  padding-left: 120px;
-  height: 100px;
-  background-color: greenyellow;
-}
-.page-2-scroll-x-1 .left #logo {
-  background-image: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
-  color: transparent;
-  background-clip: text;
-  font-weight: 700;
-  font-size: 43.88px;
-  line-height: 52.01px;
-  padding-right: 10px;
-}
-.page-2-scroll-x-1 .left #simple-text {
-  font-weight: 700;
-  font-size: 43.88px;
-  line-height: 52.01px;
-  color: rgb(110, 110, 115);
-}
-.page-2-scroll-x-1 .features {
-  height: 526px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
-  padding-left: 120px;
-  overflow-x: scroll;
-}
-.page-2-scroll-x-1 .features .items {
-  width: 480px;
-  height: 500px;
-  border-radius: 18px;
-  background-color: #0071E3;
-}
-.page-2-scroll-x-1 .features .items img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 18px;
 }
 
 /*# sourceMappingURL=section-1.css.map */

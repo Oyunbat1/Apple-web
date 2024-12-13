@@ -1,0 +1,56 @@
+.special-text {
+  height: 300px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+.special-text .left {
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 120px;
+}
+.special-text .left #logo {
+  background-image: linear-gradient(90.43deg, #0090F7 0%, #BA62FC 33.33%, #F2416B 66.67%, #F55600 100%);
+  color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-size: 43.88px;
+  line-height: 52.01px;
+  padding-right: 10px;
+}
+.special-text .left #simple-text {
+  font-weight: 700;
+  font-size: 43.88px;
+  line-height: 52.01px;
+  color: rgb(110, 110, 115);
+}
+.special-text .right {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.special-text .right .left-pic img {
+  border-radius: 50%;
+  margin-bottom: 55px;
+  margin-left: 120px;
+  width: 35px;
+  height: 35px;
+}
+.special-text .right .right-text .top-text {
+  padding-bottom: 20px;
+}
+.special-text .right .right-text .top-text h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.special-text .right .right-text .bottom-text h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=page2-special-text.css.map */
